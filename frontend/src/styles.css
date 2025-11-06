@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+.app { max-width: 800px; margin: 0 auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.chat { border: 1px solid #444; border-radius: 8px; padding: 12px; min-height: 60vh; background: #111; overflow-y: auto; }
+.msg { padding: 8px 12px; border-radius: 8px; margin: 8px 0; white-space: pre-wrap; }
+.msg.user { background: #1a3b5a; align-self: flex-end; }
+.msg.assistant { background: #2a2a2a; align-self: flex-start; }
+.inputBar { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px 12px; border-radius: 8px; border: 1px solid #555; background: #151515; color: #eee; }
+button { padding: 10px 14px; border-radius: 8px; border: none; background: #3a6ff7; color: white; cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.status { opacity: 0.7; font-size: 12px; }
+
+
+
