@@ -28,7 +28,7 @@ curl http://127.0.0.1:8000/health
 
 ## Install and run Ollama
 
-1. Install on Windowshell
+1. Install on Windows (admin Powershell)
 
 ```bash
 winget install Ollama.Ollama
@@ -93,3 +93,13 @@ curl http://127.0.0.1:8000/health # expect "ollama": true
 ```bash
 []
 ```
+
+## Frontend
+
+```bash
+cd frontend
+npm i
+npm run dev
+```
+
+Open `http://localhost:5173`
